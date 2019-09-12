@@ -1,0 +1,15 @@
+int main(){
+    int a = -1024;
+    while (a != -1){
+        println(toString(a));
+        a = a >> 1;
+    }
+
+    a = -1024;
+    int b = 3;
+    while (a != -1){
+        println(toString(a));
+        a = a >> b;
+    }
+    return 0;
+}
